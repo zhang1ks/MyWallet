@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_payment"
+            android:icon="@drawable/ic_menu_paymentmethod"
+            android:title="How do I pay?" />
+        <item
+            android:id="@+id/nav_mybank"
+            android:icon="@drawable/ic_menu_mybank"
+            android:title="My bank" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_menu_settings"
+            android:title="Settings" />
+    </group>
+
+</menu>
